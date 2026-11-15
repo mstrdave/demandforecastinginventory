@@ -1,0 +1,195 @@
+{
+  "backtest_mean": {
+    "gbm": {
+      "wape": 0.459,
+      "mae": 3.6811,
+      "rmse": 7.356,
+      "bias": -0.0456
+    },
+    "moving_average_28": {
+      "wape": 0.5133,
+      "mae": 4.1154,
+      "rmse": 8.1773,
+      "bias": 0.0245
+    },
+    "seasonal_naive": {
+      "wape": 0.6716,
+      "mae": 5.3904,
+      "rmse": 10.9158,
+      "bias": 0.0063
+    }
+  },
+  "holdout": {
+    "seasonal_naive": {
+      "wape": 0.6786,
+      "mae": 4.7564,
+      "rmse": 7.8665,
+      "bias": 0.0114
+    },
+    "moving_average_28": {
+      "wape": 0.5079,
+      "mae": 3.5602,
+      "rmse": 5.7505,
+      "bias": -0.0051
+    },
+    "gbm": {
+      "wape": 0.4568,
+      "mae": 3.2015,
+      "rmse": 5.0575,
+      "bias": -0.0407
+    }
+  },
+  "holdout_interval_coverage_80": 0.7538,
+  "inventory": [
+    {
+      "policy": "Static (mean + z\u00b7\u03c3)",
+      "target_service": 0.85,
+      "demand": 59208.0,
+      "sold": 55002.9327,
+      "avg_inventory_value": 147552.6877,
+      "total_cost": 332897.4344,
+      "orders": 1725,
+      "fill_rate": 0.929
+    },
+    {
+      "policy": "Forecast: 28-day MA",
+      "target_service": 0.85,
+      "demand": 59208.0,
+      "sold": 57216.0503,
+      "avg_inventory_value": 118975.0606,
+      "total_cost": 247676.6318,
+      "orders": 1688,
+      "fill_rate": 0.9664
+    },
+    {
+      "policy": "Forecast: GBM",
+      "target_service": 0.85,
+      "demand": 59208.0,
+      "sold": 58229.2404,
+      "avg_inventory_value": 106425.2147,
+      "total_cost": 207544.9866,
+      "orders": 1724,
+      "fill_rate": 0.9835
+    },
+    {
+      "policy": "Static (mean + z\u00b7\u03c3)",
+      "target_service": 0.9,
+      "demand": 59208.0,
+      "sold": 55360.4955,
+      "avg_inventory_value": 156868.9757,
+      "total_cost": 341422.1387,
+      "orders": 1737,
+      "fill_rate": 0.935
+    },
+    {
+      "policy": "Forecast: 28-day MA",
+      "target_service": 0.9,
+      "demand": 59208.0,
+      "sold": 57541.7144,
+      "avg_inventory_value": 129265.8899,
+      "total_cost": 257953.8865,
+      "orders": 1704,
+      "fill_rate": 0.9719
+    },
+    {
+      "policy": "Forecast: GBM",
+      "target_service": 0.9,
+      "demand": 59208.0,
+      "sold": 58466.0466,
+      "avg_inventory_value": 115649.6331,
+      "total_cost": 217955.3251,
+      "orders": 1735,
+      "fill_rate": 0.9875
+    },
+    {
+      "policy": "Static (mean + z\u00b7\u03c3)",
+      "target_service": 0.95,
+      "demand": 59208.0,
+      "sold": 56058.5123,
+      "avg_inventory_value": 171012.8951,
+      "total_cost": 351931.9535,
+      "orders": 1777,
+      "fill_rate": 0.9468
+    },
+    {
+      "policy": "Forecast: 28-day MA",
+      "target_service": 0.95,
+      "demand": 59208.0,
+      "sold": 57941.3098,
+      "avg_inventory_value": 144555.3292,
+      "total_cost": 275838.6298,
+      "orders": 1707,
+      "fill_rate": 0.9786
+    },
+    {
+      "policy": "Forecast: GBM",
+      "target_service": 0.95,
+      "demand": 59208.0,
+      "sold": 58752.7799,
+      "avg_inventory_value": 129490.9396,
+      "total_cost": 235412.2693,
+      "orders": 1748,
+      "fill_rate": 0.9923
+    },
+    {
+      "policy": "Static (mean + z\u00b7\u03c3)",
+      "target_service": 0.98,
+      "demand": 59208.0,
+      "sold": 56610.2642,
+      "avg_inventory_value": 187254.5251,
+      "total_cost": 369898.2025,
+      "orders": 1820,
+      "fill_rate": 0.9561
+    },
+    {
+      "policy": "Forecast: 28-day MA",
+      "target_service": 0.98,
+      "demand": 59208.0,
+      "sold": 58267.3406,
+      "avg_inventory_value": 161799.0866,
+      "total_cost": 298251.5699,
+      "orders": 1724,
+      "fill_rate": 0.9841
+    },
+    {
+      "policy": "Forecast: GBM",
+      "target_service": 0.98,
+      "demand": 59208.0,
+      "sold": 58864.8587,
+      "avg_inventory_value": 145429.3481,
+      "total_cost": 260240.5908,
+      "orders": 1744,
+      "fill_rate": 0.9942
+    },
+    {
+      "policy": "Static (mean + z\u00b7\u03c3)",
+      "target_service": 0.99,
+      "demand": 59208.0,
+      "sold": 57077.5682,
+      "avg_inventory_value": 198015.9597,
+      "total_cost": 380894.9109,
+      "orders": 1841,
+      "fill_rate": 0.964
+    },
+    {
+      "policy": "Forecast: 28-day MA",
+      "target_service": 0.99,
+      "demand": 59208.0,
+      "sold": 58395.7693,
+      "avg_inventory_value": 173512.8944,
+      "total_cost": 315338.576,
+      "orders": 1723,
+      "fill_rate": 0.9863
+    },
+    {
+      "policy": "Forecast: GBM",
+      "target_service": 0.99,
+      "demand": 59208.0,
+      "sold": 58974.3747,
+      "avg_inventory_value": 155907.2165,
+      "total_cost": 275538.8327,
+      "orders": 1747,
+      "fill_rate": 0.9961
+    }
+  ]
+}
